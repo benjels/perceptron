@@ -115,7 +115,7 @@ public class Main {
 		    }
 	      scanner.close();
 	      } catch(IOException e){System.out.println("Load from file failed"); }
-		 //so now we should have all of the images in a list and we just need to create their feature vectors
+		 //so now we should have all of the images in a list and we just need to create their feature vectors...
 		 for(Image each: images){
 			 System.out.println("=====================");
 			 System.out.println(each.outcomeClass);
@@ -126,7 +126,7 @@ public class Main {
 				 System.out.println("");
 			 }
 		 }
-
+		 //pass each image to generateFeatureVector method and then fill in that image's field with that feature vector
 
 
 
@@ -141,7 +141,7 @@ public class Main {
 	 * takes a feature and an image. Returns true if that feature is activated by that image and false if it is not activated.
 	 * @return
 	 */
-	private static boolean checkFeature(Image image, Feature feature){
+	private static boolean generateFeatureVector(Image image, Feature feature){
 
 
 
