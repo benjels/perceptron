@@ -17,11 +17,29 @@ public class Main {
 		//load all of our images into a list (the images include their feature vector as a field)
 		ArrayList<Image> images = loadImages(IMAGE_PATH, features, 100);
 
-		////now create the 2d array of 1 feature vector per image
+		////now we have all of our feature vectors for each image
+		
+		-prepend the dummy feature which is always true
+		
+		- create 51 random weights from 0.5 to -0.5
+		
+		-for 150 times, call the train()
 	}
 
 
-
+	public static void train(Image[] instances, double[] weights){
+		
+		-for each instance:
+			-find the sum of all the weights multiplied with each instance's feature vector (non activated features in the feature vector will just result in us multiplying those weights by 0)
+			
+			-if our sum from above is over the 0 threshold classify as true, else classify as false
+			
+			-compare our classification from above to the ACTUAL class that we read in from the file, if we got it wrong, adjust THE WEIGHTS OF ALL OF THE ACTIVATED FEATURES FOR THIS IMAGE BY +1 OR -1
+			
+			^ we adjust the weights of all of the activated features because it's like e.g., these are the features that seem to signify that we have a true class image (because we know from the file that it is a true class image AND these are the features that are activated when we have one of those) AND we just wrongly classified it as false class, so we must not be valuing these features enough. (obviously we will end up increasing the weight of some features when we don't really want to e.g. a day time picture that activates a bad feature because it happens to have a black patch), but over time we should identify which features are activated for lots of true class images and which aren't
+	
+	-this method should print out its classification accuracy after every epoch so taht we can see it increase
+	}
 
 
 
@@ -127,7 +145,14 @@ public class Main {
 			 }
 		 }
 		 //pass each image to generateFeatureVector method and then fill in that image's field with that feature vector
-
+		 for(Image eachImage: images){
+			 boolean[] featureVector = new boolean[features.length];
+			 for(int i = 0; i < featureVector.length; i++){
+				 featureVector[i] = checkFeatureAgainstImage(eachImage, features[i]);
+			 }
+			 eachImage.featureVector = featureVector;
+			 assert(featureVector.length == 50);
+		 }
 
 
 
@@ -141,7 +166,7 @@ public class Main {
 	 * takes a feature and an image. Returns true if that feature is activated by that image and false if it is not activated.
 	 * @return
 	 */
-	private static boolean generateFeatureVector(Image image, Feature feature){
+	private static boolean checkFeatureAgainstImage(Image image, Feature feature){
 
 
 

@@ -3,7 +3,7 @@ public class Image {
 	public final boolean[][] blackWhiteMap;
 	public final boolean outcomeClass;
 
-	public boolean[][] featureVector;
+	public boolean[] featureVector;
 
 
 	public Image(boolean[][] blackWhiteMap, boolean outcomeClass) {
