@@ -1,0 +1,32 @@
+ INSTRUCTIONS:
+ 
+ The runnable jar is called perceptronRun.jar. The jar with source files inside is called perceptronSource.jar.
+ 
+ You can run this program by entering the following into the console:
+ 
+ java -jar perceptronRun.jar
+ 
+ Which will run the program with the standard training and testing data and give a full print out.
+ 
+ Alternatively, you can run it like this:
+ 
+ java -jar perceptronRun.jar data/image.data data/SamCostiganTestData.txt
+ 
+ The first argument is the path to the training set, the second argument is the path to the test set.
+ 
+ If you want to run this program WITHOUT a testing step, you can just do this:
+ 
+ java -jar perceptronRun.jar data/image.data.
+ 
+ 
+ SOME NOTES ON PARAMATERS:
+ 
+ -I have seeded all Random objects with a value of 1. A tutor recommended I do this for the sake of consistency.
+ 
+ -I am using a weight-change-rate of 0.004. This seems like a decent value for this. It's not very different from a rate of 1 or any other number I tried.
+  One thing about having a rate this low is that all of the weights are very close to 0. They are still very different RELATIVE to one another.
+  
+  
+  NOTE ON TEST DATA:
+  The test data I have used, SamCostiganTestData.txt, was generously created/provided by Sam Costigan who is another student in the COMP307 class. 
+  He has given us permission to use it.

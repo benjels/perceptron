@@ -1,0 +1,298 @@
+this is what is printed to console when java -jar perceptronRun.jar is run in console on submission version:
+ 
+ 
+ 
+PRINTING TRAINING INFORMATION: 
+
+
+108 iterations were necessary to get perfect accuracy with the weight adjustment rate: 0.004
+
+note that when the weight adjustment rate is very low (I am using 0.004), it might not appear that there is much difference in the weights. They ARE very different relative to one another though.
+
+printing feature/weight row|col information after training (dummy feature information omitted) : 
+
+Pixel positions: 5|4, 8|4, 7|4, 3|6    Signs: true, true, false, false    Weight: -0.0419191885077983
+
+
+Pixel positions: 7|2, 3|2, 2|6, 4|9    Signs: false, true, false, false    Weight: 0.1317148413097174
+
+
+Pixel positions: 4|7, 9|2, 8|5, 3|4    Signs: true, false, false, true    Weight: -0.011282944040488702
+
+
+Pixel positions: 9|5, 0|0, 5|7, 4|7    Signs: false, true, true, false    Weight: 0.09575590942412038
+
+
+Pixel positions: 0|6, 7|5, 2|6, 3|5    Signs: true, true, false, false    Weight: -0.3578828177342386
+
+
+Pixel positions: 0|8, 1|6, 6|8, 3|4    Signs: false, false, true, false    Weight: 0.20770479702320743
+
+
+Pixel positions: 5|2, 8|1, 2|1, 7|7    Signs: false, true, false, true    Weight: 0.1838653887819096
+
+
+Pixel positions: 5|9, 9|0, 9|7, 5|6    Signs: false, true, true, true    Weight: 0.21519491766319365
+
+
+Pixel positions: 1|4, 1|2, 6|4, 0|5    Signs: false, false, false, false    Weight: 0.34508214889596955
+
+
+Pixel positions: 3|1, 7|3, 7|7, 0|6    Signs: true, false, false, false    Weight: 0.0771743421847057
+
+
+Pixel positions: 8|6, 3|6, 0|1, 6|9    Signs: false, false, false, false    Weight: -0.36848197079688993
+
+
+Pixel positions: 0|4, 5|1, 5|6, 6|6    Signs: true, false, false, false    Weight: -0.00994296799596308
+
+
+Pixel positions: 3|2, 0|3, 9|4, 5|2    Signs: true, true, true, false    Weight: 0.006483627326235086
+
+
+Pixel positions: 7|9, 4|6, 7|7, 7|9    Signs: false, true, true, false    Weight: -0.26003291196734213
+
+
+Pixel positions: 8|2, 5|5, 7|6, 8|0    Signs: false, true, true, true    Weight: 0.30253588007917775
+
+
+Pixel positions: 0|8, 0|7, 5|8, 6|9    Signs: false, false, true, true    Weight: -0.5121072913065805
+
+
+Pixel positions: 8|1, 3|5, 5|9, 2|6    Signs: true, true, false, false    Weight: -0.03925310943015348
+
+
+Pixel positions: 2|8, 7|5, 2|4, 7|1    Signs: false, false, true, true    Weight: -0.06979795467894467
+
+
+Pixel positions: 3|4, 3|9, 4|9, 0|2    Signs: true, true, true, true    Weight: -0.37623731709624886
+
+
+Pixel positions: 1|0, 8|0, 6|6, 5|9    Signs: false, true, true, false    Weight: -0.05305202039750828
+
+
+Pixel positions: 1|7, 9|8, 8|8, 9|2    Signs: true, true, true, false    Weight: 0.36122777147371377
+
+
+Pixel positions: 9|1, 8|2, 8|9, 4|5    Signs: false, true, true, false    Weight: -0.3509748240075473
+
+
+Pixel positions: 1|6, 5|9, 8|3, 7|2    Signs: false, false, false, false    Weight: 0.2391351557883332
+
+
+Pixel positions: 5|6, 3|3, 2|8, 9|1    Signs: true, true, true, false    Weight: 0.2279844862373166
+
+
+Pixel positions: 6|4, 8|8, 1|6, 8|1    Signs: true, true, true, true    Weight: -0.35797729678407386
+
+
+Pixel positions: 4|7, 0|5, 5|1, 4|0    Signs: false, false, true, true    Weight: -0.20227169842440215
+
+
+Pixel positions: 9|6, 3|6, 3|3, 8|6    Signs: false, true, true, true    Weight: 0.03255480889367368
+
+
+Pixel positions: 3|9, 3|9, 9|2, 9|7    Signs: true, true, false, true    Weight: 0.037100261374276466
+
+
+Pixel positions: 6|5, 2|7, 0|3, 4|8    Signs: false, false, true, true    Weight: 0.004913545758561809
+
+
+Pixel positions: 8|3, 2|0, 3|9, 7|9    Signs: true, true, true, true    Weight: 0.09136381063166576
+
+
+Pixel positions: 5|2, 3|2, 7|8, 1|5    Signs: true, false, true, true    Weight: -0.3712929097220514
+
+
+Pixel positions: 6|5, 5|7, 2|7, 2|1    Signs: true, false, false, true    Weight: 0.04268441098222925
+
+
+Pixel positions: 9|7, 6|8, 9|7, 8|3    Signs: true, false, false, false    Weight: -0.20695667662829764
+
+
+Pixel positions: 0|4, 9|6, 4|3, 3|3    Signs: false, false, false, false    Weight: 0.1340548466371751
+
+
+Pixel positions: 8|7, 4|0, 8|5, 4|0    Signs: false, false, true, false    Weight: 0.12039706478379653
+
+
+Pixel positions: 1|3, 9|1, 4|0, 8|4    Signs: true, true, false, false    Weight: 0.3778340099187001
+
+
+Pixel positions: 8|5, 9|5, 4|5, 4|8    Signs: false, false, true, true    Weight: 0.15742655358129592
+
+
+Pixel positions: 3|9, 7|7, 8|3, 8|6    Signs: true, true, true, true    Weight: -0.20147909370577832
+
+
+Pixel positions: 4|1, 7|2, 7|1, 4|4    Signs: false, false, false, false    Weight: -0.17439787509231508
+
+
+Pixel positions: 4|5, 6|1, 9|0, 0|7    Signs: true, false, false, false    Weight: -0.09999312010646089
+
+
+Pixel positions: 3|5, 8|4, 3|4, 1|5    Signs: false, true, true, true    Weight: -0.0548442052486664
+
+
+Pixel positions: 1|3, 4|2, 8|7, 4|5    Signs: false, false, false, false    Weight: 0.20190875165537692
+
+
+Pixel positions: 5|7, 2|1, 6|1, 2|0    Signs: false, false, false, true    Weight: -0.03367310668072421
+
+
+Pixel positions: 4|0, 6|9, 7|9, 6|8    Signs: false, false, false, false    Weight: -0.031620756137061334
+
+
+Pixel positions: 6|4, 0|3, 9|6, 9|9    Signs: true, true, true, true    Weight: 0.15517360312941642
+
+
+Pixel positions: 5|5, 0|9, 3|2, 3|3    Signs: false, true, true, true    Weight: -0.44016095769581043
+
+
+Pixel positions: 0|6, 1|3, 8|7, 9|5    Signs: false, false, false, true    Weight: -0.07552329310404698
+
+
+Pixel positions: 6|5, 7|4, 9|6, 2|6    Signs: false, true, true, true    Weight: -0.1436771993307056
+
+
+Pixel positions: 3|5, 7|3, 8|9, 6|1    Signs: false, false, true, true    Weight: -0.13726249263949253
+
+
+Pixel positions: 1|0, 0|6, 6|7, 8|3    Signs: false, true, false, true    Weight: -0.04935049970602978
+
+
+
+PRINTING TESTING INFORMATION: 
+
+
+ :) :D :-) correctly classified the following instance from the test data: 
+ 
+          
+   @@@    
+  @   @   
+ @    @   
+@    @    
+@   @     
+ @@@      
+          
+          
+          
+
+ :) :D :-) correctly classified the following instance from the test data: 
+ 
+ @@@      
+ @  @@@@  
+@       @ 
+ @       @
+ @       @
+  @      @
+   @    @ 
+   @  @ @ 
+    @@ @  
+          
+
+ :) :D :-) correctly classified the following instance from the test data: 
+ 
+   @@@@   
+  @@  @@  
+ @@    @@ 
+ @      @ 
+ @      @ 
+ @      @ 
+ @      @ 
+ @@    @@ 
+  @@  @@  
+   @@@@   
+
+ :( :[ :'( misclassified the following instance from the test data: 
+ 
+          
+ @      @ 
+ @@@   @@ 
+   @@@@@  
+    @@@   
+    @@@   
+  @@@ @@  
+@@@    @  
+       @@ 
+          
+
+ :) :D :-) correctly classified the following instance from the test data: 
+ 
+@        @
+ @      @ 
+  @    @  
+   @  @   
+    @@    
+    @@    
+   @  @   
+  @    @  
+ @      @ 
+@        @
+
+ :( :[ :'( misclassified the following instance from the test data: 
+ 
+          
+ @        
+  @     @ 
+   @   @  
+   @  @   
+    @@@   
+    @@@   
+    @@ @  
+  @@    @ 
+          
+
+ :) :D :-) correctly classified the following instance from the test data: 
+ 
+      @@  
+ @@@@@  @ 
+ @      @ 
+ @       @
+ @       @
+ @      @ 
+ @     @  
+  @  @@   
+   @@     
+          
+
+ :) :D :-) correctly classified the following instance from the test data: 
+ 
+          
+        @ 
+ @     @  
+  @   @   
+   @ @    
+    @     
+   @ @    
+  @   @   
+       @  
+          
+
+ :( :[ :'( misclassified the following instance from the test data: 
+ 
+          
+  @    @  
+  @    @  
+  @@@@@@  
+    @@    
+    @@    
+  @@@@@@  
+  @    @  
+  @    @  
+          
+
+ :) :D :-) correctly classified the following instance from the test data: 
+ 
+  @@@@@@@ 
+  @     @ 
+  @     @ 
+  @     @ 
+  @     @ 
+  @    @@ 
+  @   @@  
+  @  @@   
+  @@@@    
+          
+running the features and weights that were generated in the training step over some new, 'unseen' instances, gives us an accuracy of 7/10
+
